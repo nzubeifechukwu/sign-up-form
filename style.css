@@ -34,7 +34,6 @@ div.background {
   display: flex;
   color: white;
   justify-content: center;
-  margin-right: 2rem;
 }
 
 div.logo {
@@ -54,12 +53,9 @@ h1 {
   font-size: 2.5rem;
 }
 
-img {
-  /* margin: 1rem 0; */
-}
-
 div.body {
-  padding-right: 4rem;
+  background-color: #e5e7eb;
+  font-weight: 600;
 }
 
 fieldset {
@@ -86,4 +82,43 @@ input:focus {
 
 .password:invalid {
   border-color: red;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(89, 109, 72, 0.842);
+  color: rgba(255, 255, 255, 0.849);
+}
+
+div.intro {
+  padding: 4rem 4rem 2rem 1.5rem;
+}
+
+.para {
+  margin-top: 1rem;
+}
+
+div.inputs {
+  padding: 1rem 4rem 2rem 2rem;
+  font-weight: 500;
+  font-size: small;
+  background-color: white;
+}
+
+div.inputs h2 {
+  font-weight: 600;
+}
+
+div.button {
+  margin: 1.5rem 2rem;
 }
